@@ -1,0 +1,11 @@
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\bin\Debug\net10.0\ControleGastos.Domain.deps.json
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\bin\Debug\net10.0\ControleGastos.Domain.dll
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\bin\Debug\net10.0\ControleGastos.Domain.pdb
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\obj\Debug\net10.0\ControleGastos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\obj\Debug\net10.0\ControleGastos.Domain.AssemblyInfoInputs.cache
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\obj\Debug\net10.0\ControleGastos.Domain.AssemblyInfo.cs
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\obj\Debug\net10.0\ControleGastos.Domain.csproj.CoreCompileInputs.cache
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\obj\Debug\net10.0\ControleGastos.Domain.dll
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\obj\Debug\net10.0\refint\ControleGastos.Domain.dll
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\obj\Debug\net10.0\ControleGastos.Domain.pdb
+C:\controle-gastos\ControleGastos\src\Domain\ControleGastos.Domain\obj\Debug\net10.0\ref\ControleGastos.Domain.dll

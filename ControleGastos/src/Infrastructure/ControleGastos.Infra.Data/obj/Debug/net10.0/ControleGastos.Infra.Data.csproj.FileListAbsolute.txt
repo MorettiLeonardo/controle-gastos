@@ -1,0 +1,17 @@
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\bin\Debug\net10.0\ControleGastos.Infra.Data.deps.json
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\bin\Debug\net10.0\ControleGastos.Infra.Data.runtimeconfig.json
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\bin\Debug\net10.0\ControleGastos.Infra.Data.dll
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\bin\Debug\net10.0\ControleGastos.Infra.Data.pdb
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\bin\Debug\net10.0\ControleGastos.Domain.dll
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\bin\Debug\net10.0\ControleGastos.Domain.pdb
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ControleGastos.Infra.Data.csproj.AssemblyReference.cache
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ControleGastos.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ControleGastos.Infra.Data.AssemblyInfoInputs.cache
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ControleGastos.Infra.Data.AssemblyInfo.cs
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ControleGastos.Infra.Data.csproj.CoreCompileInputs.cache
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\Controle.479E1B5F.Up2Date
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ControleGastos.Infra.Data.dll
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\refint\ControleGastos.Infra.Data.dll
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ControleGastos.Infra.Data.pdb
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ControleGastos.Infra.Data.genruntimeconfig.cache
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Infra.Data\obj\Debug\net10.0\ref\ControleGastos.Infra.Data.dll
