@@ -17,3 +17,4 @@ C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Ioc\obj\Debu
 C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Ioc\obj\Debug\net10.0\refint\ControleGastos.Ioc.dll
 C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Ioc\obj\Debug\net10.0\ControleGastos.Ioc.pdb
 C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Ioc\obj\Debug\net10.0\ref\ControleGastos.Ioc.dll
+C:\controle-gastos\ControleGastos\src\Infrastructure\ControleGastos.Ioc\obj\Debug\net10.0\ControleGastos.Ioc.sourcelink.json

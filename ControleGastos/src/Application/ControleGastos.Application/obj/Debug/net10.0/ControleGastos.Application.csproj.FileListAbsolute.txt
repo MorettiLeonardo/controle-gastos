@@ -13,3 +13,4 @@ C:\controle-gastos\ControleGastos\src\Application\ControleGastos.Application\obj
 C:\controle-gastos\ControleGastos\src\Application\ControleGastos.Application\obj\Debug\net10.0\refint\ControleGastos.Application.dll
 C:\controle-gastos\ControleGastos\src\Application\ControleGastos.Application\obj\Debug\net10.0\ControleGastos.Application.pdb
 C:\controle-gastos\ControleGastos\src\Application\ControleGastos.Application\obj\Debug\net10.0\ref\ControleGastos.Application.dll
+C:\controle-gastos\ControleGastos\src\Application\ControleGastos.Application\obj\Debug\net10.0\ControleGastos.Application.sourcelink.json

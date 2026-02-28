@@ -45,3 +45,4 @@ C:\controle-gastos\ControleGastos\src\API\ControleGastos.Api\obj\Debug\net10.0\C
 C:\controle-gastos\ControleGastos\src\API\ControleGastos.Api\obj\Debug\net10.0\ControleGastos.Api.genruntimeconfig.cache
 C:\controle-gastos\ControleGastos\src\API\ControleGastos.Api\obj\Debug\net10.0\ref\ControleGastos.Api.dll
 C:\controle-gastos\ControleGastos\src\API\ControleGastos.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\controle-gastos\ControleGastos\src\API\ControleGastos.Api\obj\Debug\net10.0\ControleGastos.Api.sourcelink.json
