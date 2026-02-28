@@ -16,6 +16,7 @@ Pré-requisito: Docker Desktop instalado.
 Na raiz do projeto:
 
 docker compose up --build
+
 Acessos
 
 Frontend: http://localhost:3000
