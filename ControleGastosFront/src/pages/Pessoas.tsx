@@ -6,7 +6,6 @@ import type { PessoaTotaisResponse } from "../types";
 export default function Pessoas() {
   const [lista, setLista] = useState<PessoaTotaisResponse[]>([]);
   const [loading, setLoading] = useState(true);
-  const [erro, setErro] = useState("");
 
   useEffect(() => {
     handleObterPessoas();
@@ -18,7 +17,7 @@ export default function Pessoas() {
       if (response.data?.pessoas) setLista(response.data.pessoas);
       else setLista([]);
     } catch {
-      setErro("Erro ao carregar pessoas.");
+      alert("Erro ao carregar pessoas.");
     } finally {
       setLoading(false);
     }

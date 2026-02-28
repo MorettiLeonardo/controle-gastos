@@ -1,0 +1,41 @@
+version: '3.9'
+
+services:
+
+  db:
+    image: postgres:16
+    container_name: controle-gastos-db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: controlegastos
+    ports:
+      - "5432:5432"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./ControleGastos
+    container_name: controle-gastos-api
+    depends_on:
+      - db
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: Host=db;Port=5432;Database=controlegastos;Username=postgres;Password=123456
+    ports:
+      - "5000:8080"
+
+  front:
+    build:
+      context: ./ControleGastosFront
+    container_name: controle-gastos-front
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+
+volumes:
+  dbdata:

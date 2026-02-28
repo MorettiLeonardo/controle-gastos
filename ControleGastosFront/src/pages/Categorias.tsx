@@ -13,7 +13,6 @@ const finalidadeLabel: Record<EFinalidade, string> = {
 export default function Categorias() {
   const [lista, setLista] = useState<ObterTodasCategoriasResponse[]>([]);
   const [loading, setLoading] = useState(true);
-  const [erro, setErro] = useState("");
 
   useEffect(() => {
     handleTodasCategorias();
@@ -24,8 +23,8 @@ export default function Categorias() {
       const response = await categoriasService.obterCategorias(1, 500);
       if (response.data && Array.isArray(response.data)) setLista(response.data);
       else setLista([]);
-    } catch (err: unknown) {
-      setErro("Erro ao carregar categorias.");
+    } catch {
+      alert("Erro ao carregar categorias.");
     } finally {
       setLoading(false);
     }

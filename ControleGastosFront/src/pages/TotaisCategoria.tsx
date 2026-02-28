@@ -12,7 +12,6 @@ function formatarValor(v: number): string {
 export default function TotaisCategoria() {
   const [data, setData] = useState<ConsultaTotaisCategoriaResponse | null>(null);
   const [loading, setLoading] = useState(true);
-  const [erro, setErro] = useState("");
 
   useEffect(() => {
     handleTotaisCategorias();
@@ -24,7 +23,7 @@ export default function TotaisCategoria() {
       if (response.data) setData(response.data);
       else setData(null);
     } catch {
-      setErro("Erro ao carregar totais.");
+      alert("Erro ao carregar totais.");
     } finally {
       setLoading(false);
     }
