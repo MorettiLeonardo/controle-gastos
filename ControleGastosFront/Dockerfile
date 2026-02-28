@@ -7,6 +7,8 @@ RUN npm install
 
 COPY . .
 
+ARG VITE_BASE_URL=http://localhost:5000/api/v1
+ENV VITE_BASE_URL=$VITE_BASE_URL
 RUN npm run build
 
 RUN npm install -g serve

@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
 
   db:
@@ -14,13 +12,19 @@ services:
       - "5432:5432"
     volumes:
       - dbdata:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres -d controlegastos" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
   api:
     build:
       context: ./ControleGastos
     container_name: controle-gastos-api
     depends_on:
-      - db
+      db:
+        condition: service_healthy
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: http://+:8080
