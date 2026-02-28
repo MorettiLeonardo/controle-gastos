@@ -1,12 +1,12 @@
-#build
+# -------- BUILD --------
 FROM mcr.microsoft.com/dotnet/sdk:10.0-preview AS build
-WORKDIR /app
+WORKDIR /src
 
 COPY . .
-RUN dotnet restore
-RUN dotnet publish -c Release -o out
 
-#runtime
+RUN dotnet restore src/API/ControleGastos.Api/ControleGastos.Api.csproj
+RUN dotnet publish src/API/ControleGastos.Api/ControleGastos.Api.csproj -c Release -o /app/out
+
 FROM mcr.microsoft.com/dotnet/aspnet:10.0-preview
 WORKDIR /app
 COPY --from=build /app/out .
